@@ -123,5 +123,4 @@ public class UserDAO {
         }
         return true;
     } //end Delete
-
 } // end UserDAO

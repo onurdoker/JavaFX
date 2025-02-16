@@ -6,16 +6,15 @@ import java.sql.DriverManager;
 public class DBConnection {
 
     private static final String URL = "jdbc:mysql://localhost:3306/user_management";
-    private static final String USERNAME="root";
-    private static final String PASSWORD="rootroot";
+    private static final String USERNAME = "root";
+    private static final String PASSWORD = "";
 
     // import java.sql.Connection;
-    public static Connection getConnection(){
+    public static Connection getConnection() {
         try {
-            return DriverManager.getConnection(URL,USERNAME,PASSWORD);
-        } catch (Exception e){
-            throw new RuntimeException("Veri tabanına bağlanılmadı");
+            return DriverManager.getConnection(URL, USERNAME, PASSWORD);
+        } catch (Exception e) {
+            throw new RuntimeException("Veri tabanınan bağlanılmadı");
         }
-    } // end getConection
-
+    } //end getConnection
 }

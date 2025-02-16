@@ -11,7 +11,6 @@ import java.util.List;
 
 // UserDAO (Database)
 public class UserDAO {
-
     // import java.sql.Connection;
     private Connection connection;
 
@@ -123,4 +122,5 @@ public class UserDAO {
         }
         return true;
     } //end Delete
+
 } // end UserDAO

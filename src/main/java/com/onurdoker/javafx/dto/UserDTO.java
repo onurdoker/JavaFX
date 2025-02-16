@@ -6,10 +6,12 @@ import lombok.*;
 @Getter
 @Setter
 @AllArgsConstructor // parametreli constructor
-@NoArgsConstructor // parametresiz constructor
+@NoArgsConstructor //parametresiz constructor
 @ToString
+@Builder
 // UserDTO
 public class UserDTO {
+
     // Field
     private int id;
     private String username;
@@ -17,5 +19,6 @@ public class UserDTO {
     private String email;
 
     // Method
-    // Getter and Setter
+
+    // Getter And Setter
 }
